@@ -1,0 +1,16 @@
+{
+  "name": "@morx32/qbranch",
+  "version": "0.1.0",
+  "description": "Cross-project agent skills repository",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "agent",
+    "skills"
+  ],
+  "author": "",
+  "license": "ISC"
+}
