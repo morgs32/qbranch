@@ -3,7 +3,16 @@
 	"compilerOptions": {
 		"moduleResolution": "node16",
 		"module": "Node16",
-		"outDir": "dist"
+		"outDir": "dist",
+		"typeRoots": [
+			"./types",
+			"./node_modules/@types"
+		]
 	},
-	"include": ["source"]
+	"include": [
+		"*.ts",
+		"*.tsx",
+		"types",
+		"src"
+	]
 }
