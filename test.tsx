@@ -2,7 +2,7 @@ import React from 'react';
 import chalk from 'chalk';
 import test from 'ava';
 import {render} from 'ink-testing-library';
-import Index from './source/commands/index.js';
+import Index from './src/commands/index.js';
 
 test('greet user', t => {
 	const {lastFrame} = render(<Index options={{name: 'Jane'}} />);

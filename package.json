@@ -1,5 +1,5 @@
 {
-	"name": "qbranch-pastel",
+	"name": "qbranch",
 	"version": "0.0.0",
 	"license": "MIT",
 	"bin": "dist/cli.js",
@@ -10,6 +10,7 @@
 	"scripts": {
 		"build": "tsc",
 		"dev": "tsc --watch",
+		"typecheck": "tsc --noEmit",
 		"test": "prettier --check . && xo && ava"
 	},
 	"files": [
@@ -24,6 +25,7 @@
 		"zx": "^8.8.5"
 	},
 	"devDependencies": {
+		"@morgs32/eslint-config": "^3.0.1",
 		"@sindresorhus/tsconfig": "^3.0.1",
 		"@types/react": "^18.0.32",
 		"@vdemedes/prettier-config": "^2.0.1",

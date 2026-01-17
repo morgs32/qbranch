@@ -7,6 +7,8 @@ import {dirname, join} from 'node:path';
 
 const DEFAULT_QBRANCH_REPO = 'https://github.com/morgs32/qbranch.git';
 
+export const isDefault = true;
+
 const pathExists = async (targetPath: string) => {
 	try {
 		await access(targetPath);
